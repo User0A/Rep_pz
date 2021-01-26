@@ -1,0 +1,240 @@
+*{padding: 0;
+margin: 0;}
+html{
+    height: 100%;
+}
+body{
+    background-color: silver;
+}
+a:active{
+color: green;
+}
+a:visited{
+    color: darkgreen;
+}
+a:hover{
+    text-decoration: none;
+    color: maroon;
+}
+.title_back{
+    display: flex;
+    justify-content: space-between;
+    background-color: #08059c;
+    height: 80px;
+    width: 100%;
+    font-family: "Segoe Script", serif;
+}
+#title{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+#title_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#sub_title{
+    color: white;
+}
+#sign{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+}
+#book{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    border-top: solid bisque 3px;
+    border-bottom: solid bisque 3px;;
+}
+.book_info{
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+
+}
+#book_title{
+    display: flex;
+    justify-content: center;
+}
+#info{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+#picch{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    border: black solid 5px;
+}
+#info{
+    font-size: 18px;
+}
+#more{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+#title_bot{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* The end of index page */
+
+#wind_entr {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+#text_log_pass{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+    font-size: 36px;
+    flex-direction: row;
+}
+#title_entr{
+    display: flex;
+    background-color: blue;
+    border: solid 4px black;
+    flex-direction: column;
+}
+#log_pass{
+    display: flex;
+    flex-direction: column;
+}
+#log_pass_txt{
+    margin: 10px;
+}
+#log{
+    font-size: x-large;
+    margin: 10px;
+}
+#pas{
+    font-size: x-large;
+    margin: 10px
+}
+#title_sign {
+display: flex;
+    justify-content: center;
+font-size: 42px;
+padding-bottom: 10px;
+    align-items: center;
+}
+#btn_send{
+    display: flex;
+    align-items: flex-end;
+    width: max-content;
+    align-self: flex-end;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+/* The end of login page */
+
+p{
+    margin-left: 20px;
+}
+#book_info{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    border-bottom: solid bisque 2px;
+    width: 100%;
+    justify-content: space-between;
+}
+#par1_info_txt{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.link_book{
+    font-style: italic;
+}
+.non_bold{
+font-weight: normal;
+}
+#par1_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+#part_info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 20px;
+    display: ;
+}
+
+#pich_b{
+    border: chocolate solid 3px;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+}
+#pich_a{
+    border: chocolate solid 3px;
+    margin: 20px;
+    width: 200px;
+    height: 300px
+}
+#short_subscribe{
+    color: green;
+    text-decoration: underline;
+}
+#about_book{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: 20px;
+}
+#author_info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    border-top: solid bisque 2px;
+    margin: 20px;
+}
+#link_author{
+    display: flex;
+    color: green;
+    right: 10px;
+}
+#a_info_txt{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+}
+#content{
+    display: flex;
+    font-size: 24px;
+flex-direction: column;
+    border-top: bisque solid 2px;
+    color: red;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-bottom: 80px;
+}
