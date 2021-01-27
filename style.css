@@ -95,6 +95,7 @@ a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family: Arial;
 }
 /* The end of index page */
 
@@ -185,7 +186,6 @@ font-weight: normal;
     flex-direction: column;
     margin-right: 30px;
     margin-top: 20px;
-    display: ;
 }
 
 #pich_b{
@@ -237,4 +237,42 @@ flex-direction: column;
     text-transform: uppercase;
     margin-left: 30px;
     padding-bottom: 80px;
+}
+
+/* The end of book page */
+
+#wind_register{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+#title_register{
+    background: bisque;
+    border: black solid 4px;
+}
+#title_signUp{
+    display: flex;
+    justify-content: center;
+    background: blue;
+    padding: 3px;
+}
+#text_reg{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.txt_field{
+    font-size: xx-large;
+}
+#btn_reg{
+    font-size: xx-large;
+    margin: 5px;
+    background: blue;
+    font-weight: bold;
+}
+.txt_select{
+    width: 100%;
+    font-size: xx-large;
 }
