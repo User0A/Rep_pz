@@ -18,10 +18,31 @@
     </div>
 </div>
 <div class="div_cmds">
-    <div class="Creat_rep">
+    <div id="div_creat_rep">
     <h3 id="title_creat_cmd">Creat a repository</h3>
     <p class="cmds_explaine">From scratch -- Creat a new local <br> repository</p>
     <p class="cmds">$ git init [project name]</p>
+    </div>
+    <div id="div_obsrv">
+        <h3 id="title_obsrv">Observe your repository</h3>
+        <p class="cmds_explaine">List new or modifed files not yet commited</p>
+        <p class="cmds">$ git status</p>
+        <p class="cmds_explaine">Show the changes to filesnot yet staged</p>
+        <p class="cmds">$ git diff</p>
+        <p class="cmds_explaine">Show the changes to staged files</p>
+        <p class="cmds">$ git diff --chached</p>
+        <p class="cmds_explaine">Show all staged and unstaged file changes</p>
+        <p class="cmds">$ git diff head</p>
+        <p class="cmds_explaine">Show the changes between two commits</p>
+        <p class="cmds">$ git diff commit1 commit2</p>
+        <p class="cmds_explaine">List the change dates and authors for a file</p>
+        <p class="cmds">$ git blame [file]</p>
+        <p class="cmds_explaine">Show the file changes for a commit id and / or fule</p>
+        <p class="cmds">$ git show [commit] : [file]</p>
+        <p class="cmds_explaine">Show full change history</p>
+        <p class="cmds">$ git log</p>
+        <p class="cmds_explaine">Show change history for file / directory including d/fls</p>
+        <p class="cmds">$ git log -p [file/dir]</p>
     </div>
 </div>
 <div id="title_bot">

@@ -281,20 +281,32 @@ flex-direction: column;
 
 /* The end of page */
 
-#Creat_rep{
+
+#div_creat_rep{
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 #title_creat_cmd{
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
     color: maroon;
 }
 .cmds_explaine{
-    font-size: x-large;
+    font-size: large;
     color: dimgray;
 }
 .cmds{
-    font-size: large;
+    font-size: medium;
     color: black;
+}
+#title_obsrv{
+    font-size: x-large;
+    font-weight: bold;
+    color: maroon;
+}
+#div_obsrv{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
