@@ -283,22 +283,22 @@ flex-direction: column;
 
 #div_cmd{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 #div_first_cmd{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
 }
 #div_second_cmd{
     display: flex;
     flex-direction: column;
 }
-
+#div_fourth_cmd{
+    padding-right: 20px;
+}
 #div_creat_rep{
     display: flex;
     flex-direction: column;
-    padding: 10px;
 }
 .title_cmd{
     font-size: x-large;
@@ -309,6 +309,7 @@ flex-direction: column;
 .cmds_explaine{
     font-size: large;
     color: dimgray;
+    padding-top: 6px;
 }
 .cmds{
     font-size: medium;
@@ -317,5 +318,4 @@ flex-direction: column;
 #div_obsrv{
     display: flex;
     flex-direction: column;
-    padding: 10px;
 }
