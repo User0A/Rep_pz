@@ -17,14 +17,15 @@
         <a id="Sign_up" href="register.html">Sign up</a>
     </div>
 </div>
-<div class="div_cmds">
+<div id="div_cmd">
+<div id="div_first_cmd">
     <div id="div_creat_rep">
-    <h3 id="title_creat_cmd">Creat a repository</h3>
+    <h3 class="title_cmd">Creat a repository</h3>
     <p class="cmds_explaine">From scratch -- Creat a new local <br> repository</p>
     <p class="cmds">$ git init [project name]</p>
     </div>
     <div id="div_obsrv">
-        <h3 id="title_obsrv">Observe your repository</h3>
+        <h3 class="title_cmd">Observe your repository</h3>
         <p class="cmds_explaine">List new or modifed files not yet commited</p>
         <p class="cmds">$ git status</p>
         <p class="cmds_explaine">Show the changes to filesnot yet staged</p>
@@ -44,6 +45,28 @@
         <p class="cmds_explaine">Show change history for file / directory including d/fls</p>
         <p class="cmds">$ git log -p [file/dir]</p>
     </div>
+    </div>
+<div id="div_second_cmd">
+    <div id="work_with_branches">
+        <h3 class="title_cmd">Working with Branches</h3>
+        <p class="cmds_explaine">List all local branches</p>
+        <p class="cmds">$ git branch</p>
+        <p class="cmds_explaine">List all branches local and remote</p>
+        <p class="cmds">$ git branch -av</p>
+        <p class="cmds_explaine">Switch to a branch my_branch, <br>
+            and update working directory</p>
+        <p class="cmds">$ git checkout my_branch</p>
+        <p class="cmds_explaine">Create a new branch called new_branch</p>
+        <p class="cmds">$ git branch new_branch</p>
+        <p class="cmds_explaine">Delete the branch called my_branch</p>
+        <p class="cmds">$ git branch -d my_branch</p>
+        <p class="cmds_explaine">Merge branch_a into branch_b</p>
+        <p class="cmds">$ git checkout branch_b <br>
+            $ git merge branch_a</p>
+        <p class="cmds_explaine">Tag the current commit</p>
+        <p class="cmds">$ git tag my_tag</p>
+</div>
+</div>
 </div>
 <div id="title_bot">
     <p>© All right protected<br>

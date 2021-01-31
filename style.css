@@ -281,16 +281,30 @@ flex-direction: column;
 
 /* The end of page */
 
+#div_cmd{
+    display: flex;
+    flex-direction: row;
+}
+#div_first_cmd{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#div_second_cmd{
+    display: flex;
+    flex-direction: column;
+}
 
 #div_creat_rep{
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
-#title_creat_cmd{
+.title_cmd{
     font-size: x-large;
     font-weight: bold;
     color: maroon;
+    padding: 10px;
 }
 .cmds_explaine{
     font-size: large;
@@ -299,11 +313,6 @@ flex-direction: column;
 .cmds{
     font-size: medium;
     color: black;
-}
-#title_obsrv{
-    font-size: x-large;
-    font-weight: bold;
-    color: maroon;
 }
 #div_obsrv{
     display: flex;
