@@ -82,6 +82,11 @@ a:hover{
     justify-content: flex-end;
     margin: 10px;
 }
+#link_git_cmd{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
 #title_bot{
     position: fixed;
     width: 100%;
