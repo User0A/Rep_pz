@@ -77,7 +77,7 @@ a:hover{
 #info{
     font-size: 18px;
 }
-#more{
+#more{ 
     display: flex;
     justify-content: flex-end;
     margin: 10px;
